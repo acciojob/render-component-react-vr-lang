@@ -1,11 +1,17 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from 'react';
 
-const App = () => {
+function MyComponent() {
   return (
-    <div id="main"></div>
-  )
+    <p>I am learning React. My life is getting better.</p>
+  );
 }
 
+function App() {
+  return (
+    <div className="App">
+      <MyComponent />
+    </div>
+  );
+}
 
 export default App;
